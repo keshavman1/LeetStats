@@ -102,7 +102,7 @@ const EntryPage = () => {
           </div>
         </div>
         <footer style={footerStyles}>
-          <p>Copyright @ PsSr</p>
+          <p>Copyright @ Keshav</p>
         </footer>
       </div>
     </>
