@@ -84,7 +84,7 @@ const About = () => {
       <div style={{ display: "flex", gap: "1vw",justifyContent:'center' }}>
         <div>
           <a
-            href="https://www.linkedin.com/in/prateek-srivastav-9131aa21b/"
+            href="https://www.linkedin.com/in/keshav-mantry-613768229/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -95,39 +95,23 @@ const About = () => {
               gap:'1vw'
             }}
           >
+            <br />
+            <br />
+            <br />
             <FontAwesomeIcon
               className=""
               size="2x"
               style={{ cursor: "pointer" }}
               icon={faLinkedinIn}
             />
-            Prateek Srivastav
+            
+            Keshav Mantry
           </a>
         </div>
         <div>
-          <a
-            href="https://www.linkedin.com/in/suyash-rawat-547876212/"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              textDecoration: "none",
-              color: "white",
-              display: "flex",
-              alignItems: "center",
-              gap:'1vw'
-            }}
-          >
-            <FontAwesomeIcon
-              className=""
-              size="2x"
-              style={{ cursor: "pointer" }}
-              icon={faLinkedinIn}
-            />
-            Suyash Rawat
-          </a>
         </div>
       </div>
-      <br />
+      
       <br /> Happy Leetcoding!
       <br />
       <br />

@@ -1,12 +1,12 @@
 import React from "react";
 
 const ContestComparison = ({ user1Contests, user2Contests }) => {
-  // Check if either user1Contests or user2Contests is undefined
+ 
   if (!user1Contests || !user2Contests) {
-    return null; // or return some default UI or loading indicator
+    return null; 
   }
 
-  // Find common contests
+  
   const commonContests = user1Contests.filter((contest1) =>
     user2Contests.some(
       (contest2) => contest1.contest.title === contest2.contest.title
@@ -40,7 +40,7 @@ const ContestComparison = ({ user1Contests, user2Contests }) => {
             </thead>
             <tbody>
               {commonContests.map((commonContest) => {
-                // Find the corresponding contest for user2
+                
                 const user2Contest = user2Contests.find(
                   (contest2) =>
                     contest2.contest.title === commonContest.contest.title
@@ -59,7 +59,7 @@ const ContestComparison = ({ user1Contests, user2Contests }) => {
                       margin: "5px",
                       padding: "10px",
                       border: "1px solid #ccc",
-                      // borderRadius: "5px",
+                     
                       backgroundColor: "linear-gradient(to bottom, #333, #000)", // Background color for each row
 
                       boxShadow: "0 4px 8px rgba(0.1, 0.1, 0.3, 0.8)",
