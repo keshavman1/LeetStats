@@ -10,7 +10,7 @@ const CompareProblems = () => {
   const { userSolved, userSolved2 } = context;
 
   useEffect(() => {
-    // console.log(userSolved);
+    
   });
 
   const data = {
@@ -19,12 +19,12 @@ const CompareProblems = () => {
       {
         label: localStorage.getItem('userId'),
         data: [userSolved.easySolved, userSolved.mediumSolved, userSolved.hardSolved],
-        backgroundColor: 'blue', // Blue color with transparency
+        backgroundColor: 'blue', 
       },
       {
         label: localStorage.getItem('userId2'),
         data: [userSolved2.easySolved, userSolved2.mediumSolved, userSolved2.hardSolved],
-        backgroundColor: 'green', // Green color with transparency
+        backgroundColor: 'green', 
       },
     ],
   };
