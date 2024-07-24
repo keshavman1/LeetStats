@@ -339,17 +339,7 @@ const Home = () => {
                     : null}
                 </div>
 
-                {/* <h5>Upcoming Badges:</h5>
-                <div>
-                    {userBadges.upcomingBadges
-                        ? userBadges.upcomingBadges.map((upcomingBadge) => (
-                              <UpcomingBadge
-                                  key={upcomingBadge.name}
-                                  upcomingBadge={upcomingBadge}
-                              />
-                          ))
-                        : null}
-                </div> */}
+                {}
               </>
             </div>
           )}
